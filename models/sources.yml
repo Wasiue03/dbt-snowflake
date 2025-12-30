@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: adventure_raw
+    database: ADVENTURE_DB
+    schema: RAW
+    tables:
+      - name: raw_customers
+      - name: raw_orders
